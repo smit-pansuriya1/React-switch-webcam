@@ -29,8 +29,6 @@ Fill in `.env`:
 | `npm run dev` | Dev server at http://localhost:5173, also reachable on your local network (`--host`) |
 | `npm run build` | Production build to `dist/` |
 | `npm run preview` | Serve `dist/` locally |
-| `npm run build:bandhanbank` | Build for the `/bandhanbank-switchwebcam/` sub-path into `build/bandhanbank-switchwebcam/` |
-| `npm run preview:bandhanbank` | Serve that build at http://localhost:4173/bandhanbank-switchwebcam/ |
 
 `.env` values are compiled into the bundle at build time, so you must rebuild after changing them.
 

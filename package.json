@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview --host",
-    "build:bandhanbank": "vite build --base=/bandhanbank-switchwebcam/ --outDir build/bandhanbank-switchwebcam --emptyOutDir",
-    "preview:bandhanbank": "vite preview --base=/bandhanbank-switchwebcam/ --outDir build/bandhanbank-switchwebcam --port 4173"
+    "preview": "vite preview --host"
   },
   "dependencies": {
     "@videosdk.live/react-sdk": "1.1.1",
