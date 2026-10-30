@@ -92,3 +92,14 @@ src/
 ## Note
 
 The token is bundled into the client JavaScript. That's fine for a demo. In production, generate short-lived tokens on a server.
+
+## Bandhan Bank POC
+
+This branch builds the app to run under the `/bandhanbank-switchwebcam/` sub-path instead of the domain root.
+
+| Command | What it does |
+| --- | --- |
+| `npm run build:bandhanbank` | Build into `build/bandhanbank-switchwebcam/` using the current `.env` values |
+| `npm run preview:bandhanbank` | Serve that build at http://localhost:4173/bandhanbank-switchwebcam/ |
+
+To deploy, copy the `build/bandhanbank-switchwebcam/` folder to the web server root and serve it over HTTPS. The app then opens at `https://<domain>/bandhanbank-switchwebcam/`. Rebuild after any `.env` change.
